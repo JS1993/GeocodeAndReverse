@@ -40,9 +40,11 @@
     
     [self.geoCoder geocodeAddressString:self.detailTV.text completionHandler:^(NSArray<CLPlacemark *> * _Nullable placemarks, NSError * _Nullable error) {
         
-        CLPlacemark *mark=[placemarks firstObject];
+        //安全验证
+        if (error!=nil) return ;
         
-//        self.detailTV.text=mark.name;
+        //获得地标对象
+        CLPlacemark *mark=[placemarks firstObject];
         
         self.latitudeTF.text=@(mark.location.coordinate.latitude).stringValue;
         
@@ -60,13 +62,11 @@
     
     [self.geoCoder reverseGeocodeLocation:location completionHandler:^(NSArray<CLPlacemark *> * _Nullable placemarks, NSError * _Nullable error) {
         
+        if (error!=nil) return ;
+        
         CLPlacemark *mark=[placemarks firstObject];
         
         self.detailTV.text=mark.name;
-//        
-//        self.latitudeTF.text=@(mark.location.coordinate.latitude).stringValue;
-//        
-//        self.longitudeTF.text=@(mark.location.coordinate.longitude).stringValue;
         
     }];
     
