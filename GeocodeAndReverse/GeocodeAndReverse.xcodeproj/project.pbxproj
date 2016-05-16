@@ -1,0 +1,524 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CFFE2BE21CE9B3C700CE7831 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CFFE2BE11CE9B3C700CE7831 /* main.m */; };
+		CFFE2BE51CE9B3C700CE7831 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CFFE2BE41CE9B3C700CE7831 /* AppDelegate.m */; };
+		CFFE2BE81CE9B3C700CE7831 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CFFE2BE71CE9B3C700CE7831 /* ViewController.m */; };
+		CFFE2BEB1CE9B3C700CE7831 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CFFE2BE91CE9B3C700CE7831 /* Main.storyboard */; };
+		CFFE2BED1CE9B3C700CE7831 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CFFE2BEC1CE9B3C700CE7831 /* Assets.xcassets */; };
+		CFFE2BF01CE9B3C700CE7831 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CFFE2BEE1CE9B3C700CE7831 /* LaunchScreen.storyboard */; };
+		CFFE2BFB1CE9B3C700CE7831 /* GeocodeAndReverseTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CFFE2BFA1CE9B3C700CE7831 /* GeocodeAndReverseTests.m */; };
+		CFFE2C061CE9B3C700CE7831 /* GeocodeAndReverseUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = CFFE2C051CE9B3C700CE7831 /* GeocodeAndReverseUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CFFE2BF71CE9B3C700CE7831 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CFFE2BD51CE9B3C700CE7831 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CFFE2BDC1CE9B3C700CE7831;
+			remoteInfo = GeocodeAndReverse;
+		};
+		CFFE2C021CE9B3C700CE7831 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CFFE2BD51CE9B3C700CE7831 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CFFE2BDC1CE9B3C700CE7831;
+			remoteInfo = GeocodeAndReverse;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CFFE2BDD1CE9B3C700CE7831 /* GeocodeAndReverse.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GeocodeAndReverse.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CFFE2BE11CE9B3C700CE7831 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CFFE2BE31CE9B3C700CE7831 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		CFFE2BE41CE9B3C700CE7831 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		CFFE2BE61CE9B3C700CE7831 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		CFFE2BE71CE9B3C700CE7831 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		CFFE2BEA1CE9B3C700CE7831 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CFFE2BEC1CE9B3C700CE7831 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CFFE2BEF1CE9B3C700CE7831 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CFFE2BF11CE9B3C700CE7831 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CFFE2BF61CE9B3C700CE7831 /* GeocodeAndReverseTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GeocodeAndReverseTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CFFE2BFA1CE9B3C700CE7831 /* GeocodeAndReverseTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GeocodeAndReverseTests.m; sourceTree = "<group>"; };
+		CFFE2BFC1CE9B3C700CE7831 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CFFE2C011CE9B3C700CE7831 /* GeocodeAndReverseUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GeocodeAndReverseUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CFFE2C051CE9B3C700CE7831 /* GeocodeAndReverseUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GeocodeAndReverseUITests.m; sourceTree = "<group>"; };
+		CFFE2C071CE9B3C700CE7831 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CFFE2BDA1CE9B3C700CE7831 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CFFE2BF31CE9B3C700CE7831 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CFFE2BFE1CE9B3C700CE7831 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CFFE2BD41CE9B3C700CE7831 = {
+			isa = PBXGroup;
+			children = (
+				CFFE2BDF1CE9B3C700CE7831 /* GeocodeAndReverse */,
+				CFFE2BF91CE9B3C700CE7831 /* GeocodeAndReverseTests */,
+				CFFE2C041CE9B3C700CE7831 /* GeocodeAndReverseUITests */,
+				CFFE2BDE1CE9B3C700CE7831 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CFFE2BDE1CE9B3C700CE7831 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CFFE2BDD1CE9B3C700CE7831 /* GeocodeAndReverse.app */,
+				CFFE2BF61CE9B3C700CE7831 /* GeocodeAndReverseTests.xctest */,
+				CFFE2C011CE9B3C700CE7831 /* GeocodeAndReverseUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CFFE2BDF1CE9B3C700CE7831 /* GeocodeAndReverse */ = {
+			isa = PBXGroup;
+			children = (
+				CFFE2BE31CE9B3C700CE7831 /* AppDelegate.h */,
+				CFFE2BE41CE9B3C700CE7831 /* AppDelegate.m */,
+				CFFE2BE61CE9B3C700CE7831 /* ViewController.h */,
+				CFFE2BE71CE9B3C700CE7831 /* ViewController.m */,
+				CFFE2BE91CE9B3C700CE7831 /* Main.storyboard */,
+				CFFE2BEC1CE9B3C700CE7831 /* Assets.xcassets */,
+				CFFE2BEE1CE9B3C700CE7831 /* LaunchScreen.storyboard */,
+				CFFE2BF11CE9B3C700CE7831 /* Info.plist */,
+				CFFE2BE01CE9B3C700CE7831 /* Supporting Files */,
+			);
+			path = GeocodeAndReverse;
+			sourceTree = "<group>";
+		};
+		CFFE2BE01CE9B3C700CE7831 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CFFE2BE11CE9B3C700CE7831 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CFFE2BF91CE9B3C700CE7831 /* GeocodeAndReverseTests */ = {
+			isa = PBXGroup;
+			children = (
+				CFFE2BFA1CE9B3C700CE7831 /* GeocodeAndReverseTests.m */,
+				CFFE2BFC1CE9B3C700CE7831 /* Info.plist */,
+			);
+			path = GeocodeAndReverseTests;
+			sourceTree = "<group>";
+		};
+		CFFE2C041CE9B3C700CE7831 /* GeocodeAndReverseUITests */ = {
+			isa = PBXGroup;
+			children = (
+				CFFE2C051CE9B3C700CE7831 /* GeocodeAndReverseUITests.m */,
+				CFFE2C071CE9B3C700CE7831 /* Info.plist */,
+			);
+			path = GeocodeAndReverseUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CFFE2BDC1CE9B3C700CE7831 /* GeocodeAndReverse */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CFFE2C0A1CE9B3C700CE7831 /* Build configuration list for PBXNativeTarget "GeocodeAndReverse" */;
+			buildPhases = (
+				CFFE2BD91CE9B3C700CE7831 /* Sources */,
+				CFFE2BDA1CE9B3C700CE7831 /* Frameworks */,
+				CFFE2BDB1CE9B3C700CE7831 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GeocodeAndReverse;
+			productName = GeocodeAndReverse;
+			productReference = CFFE2BDD1CE9B3C700CE7831 /* GeocodeAndReverse.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CFFE2BF51CE9B3C700CE7831 /* GeocodeAndReverseTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CFFE2C0D1CE9B3C700CE7831 /* Build configuration list for PBXNativeTarget "GeocodeAndReverseTests" */;
+			buildPhases = (
+				CFFE2BF21CE9B3C700CE7831 /* Sources */,
+				CFFE2BF31CE9B3C700CE7831 /* Frameworks */,
+				CFFE2BF41CE9B3C700CE7831 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CFFE2BF81CE9B3C700CE7831 /* PBXTargetDependency */,
+			);
+			name = GeocodeAndReverseTests;
+			productName = GeocodeAndReverseTests;
+			productReference = CFFE2BF61CE9B3C700CE7831 /* GeocodeAndReverseTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		CFFE2C001CE9B3C700CE7831 /* GeocodeAndReverseUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CFFE2C101CE9B3C700CE7831 /* Build configuration list for PBXNativeTarget "GeocodeAndReverseUITests" */;
+			buildPhases = (
+				CFFE2BFD1CE9B3C700CE7831 /* Sources */,
+				CFFE2BFE1CE9B3C700CE7831 /* Frameworks */,
+				CFFE2BFF1CE9B3C700CE7831 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CFFE2C031CE9B3C700CE7831 /* PBXTargetDependency */,
+			);
+			name = GeocodeAndReverseUITests;
+			productName = GeocodeAndReverseUITests;
+			productReference = CFFE2C011CE9B3C700CE7831 /* GeocodeAndReverseUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CFFE2BD51CE9B3C700CE7831 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = jiangsu;
+				TargetAttributes = {
+					CFFE2BDC1CE9B3C700CE7831 = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = 4SU7V64Q9J;
+					};
+					CFFE2BF51CE9B3C700CE7831 = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = 4SU7V64Q9J;
+						TestTargetID = CFFE2BDC1CE9B3C700CE7831;
+					};
+					CFFE2C001CE9B3C700CE7831 = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = 4SU7V64Q9J;
+						TestTargetID = CFFE2BDC1CE9B3C700CE7831;
+					};
+				};
+			};
+			buildConfigurationList = CFFE2BD81CE9B3C700CE7831 /* Build configuration list for PBXProject "GeocodeAndReverse" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CFFE2BD41CE9B3C700CE7831;
+			productRefGroup = CFFE2BDE1CE9B3C700CE7831 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CFFE2BDC1CE9B3C700CE7831 /* GeocodeAndReverse */,
+				CFFE2BF51CE9B3C700CE7831 /* GeocodeAndReverseTests */,
+				CFFE2C001CE9B3C700CE7831 /* GeocodeAndReverseUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CFFE2BDB1CE9B3C700CE7831 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CFFE2BF01CE9B3C700CE7831 /* LaunchScreen.storyboard in Resources */,
+				CFFE2BED1CE9B3C700CE7831 /* Assets.xcassets in Resources */,
+				CFFE2BEB1CE9B3C700CE7831 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CFFE2BF41CE9B3C700CE7831 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CFFE2BFF1CE9B3C700CE7831 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CFFE2BD91CE9B3C700CE7831 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CFFE2BE81CE9B3C700CE7831 /* ViewController.m in Sources */,
+				CFFE2BE51CE9B3C700CE7831 /* AppDelegate.m in Sources */,
+				CFFE2BE21CE9B3C700CE7831 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CFFE2BF21CE9B3C700CE7831 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CFFE2BFB1CE9B3C700CE7831 /* GeocodeAndReverseTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CFFE2BFD1CE9B3C700CE7831 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CFFE2C061CE9B3C700CE7831 /* GeocodeAndReverseUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CFFE2BF81CE9B3C700CE7831 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CFFE2BDC1CE9B3C700CE7831 /* GeocodeAndReverse */;
+			targetProxy = CFFE2BF71CE9B3C700CE7831 /* PBXContainerItemProxy */;
+		};
+		CFFE2C031CE9B3C700CE7831 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CFFE2BDC1CE9B3C700CE7831 /* GeocodeAndReverse */;
+			targetProxy = CFFE2C021CE9B3C700CE7831 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CFFE2BE91CE9B3C700CE7831 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CFFE2BEA1CE9B3C700CE7831 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CFFE2BEE1CE9B3C700CE7831 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CFFE2BEF1CE9B3C700CE7831 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CFFE2C081CE9B3C700CE7831 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		CFFE2C091CE9B3C700CE7831 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CFFE2C0B1CE9B3C700CE7831 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Wei Feng Hou (Z6S43MU38S)";
+				INFOPLIST_FILE = GeocodeAndReverse/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jiangsu.GeocodeAndReverse;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		CFFE2C0C1CE9B3C700CE7831 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Wei Feng Hou (Z6S43MU38S)";
+				INFOPLIST_FILE = GeocodeAndReverse/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jiangsu.GeocodeAndReverse;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		CFFE2C0E1CE9B3C700CE7831 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = GeocodeAndReverseTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jiangsu.GeocodeAndReverseTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GeocodeAndReverse.app/GeocodeAndReverse";
+			};
+			name = Debug;
+		};
+		CFFE2C0F1CE9B3C700CE7831 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = GeocodeAndReverseTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jiangsu.GeocodeAndReverseTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GeocodeAndReverse.app/GeocodeAndReverse";
+			};
+			name = Release;
+		};
+		CFFE2C111CE9B3C700CE7831 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = GeocodeAndReverseUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jiangsu.GeocodeAndReverseUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = GeocodeAndReverse;
+			};
+			name = Debug;
+		};
+		CFFE2C121CE9B3C700CE7831 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = GeocodeAndReverseUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jiangsu.GeocodeAndReverseUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = GeocodeAndReverse;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CFFE2BD81CE9B3C700CE7831 /* Build configuration list for PBXProject "GeocodeAndReverse" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CFFE2C081CE9B3C700CE7831 /* Debug */,
+				CFFE2C091CE9B3C700CE7831 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CFFE2C0A1CE9B3C700CE7831 /* Build configuration list for PBXNativeTarget "GeocodeAndReverse" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CFFE2C0B1CE9B3C700CE7831 /* Debug */,
+				CFFE2C0C1CE9B3C700CE7831 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		CFFE2C0D1CE9B3C700CE7831 /* Build configuration list for PBXNativeTarget "GeocodeAndReverseTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CFFE2C0E1CE9B3C700CE7831 /* Debug */,
+				CFFE2C0F1CE9B3C700CE7831 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		CFFE2C101CE9B3C700CE7831 /* Build configuration list for PBXNativeTarget "GeocodeAndReverseUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CFFE2C111CE9B3C700CE7831 /* Debug */,
+				CFFE2C121CE9B3C700CE7831 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CFFE2BD51CE9B3C700CE7831 /* Project object */;
+}
